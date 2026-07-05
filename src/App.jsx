@@ -5,7 +5,7 @@ import {
 } from "lucide-react";
 
 const API_URL =
-  "https://ai-meeting-analyzer-v2-vedansh-behmergneughg7g4.southeastasia-01.azurewebsites.net/api/analyzemeetingv2";
+  import.meta.env.VITE_API_URL;
 
 const EXAMPLE_NOTES = `Project Phoenix - Weekly Sync
 Priya opened by reviewing sprint goals. Backend integration with the payment gateway is 80% complete but Rahul flagged that the vendor's sandbox API has been returning intermittent 500 errors, blocking full testing. He'll follow up with support and needs a response by Wednesday.
