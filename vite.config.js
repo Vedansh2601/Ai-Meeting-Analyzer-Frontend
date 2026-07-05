@@ -5,7 +5,4 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/Ai-Meeting-Analyzer-Frontend/',
-  build: {
-    outDir: 'docs',
-  },
 })
